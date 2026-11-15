@@ -12,8 +12,8 @@ import * as interfaceMessages from "./messages/interface.ts";
 import * as ja from "./messages/ja.ts";
 import * as providers from "./messages/providers.ts";
 import * as settings from "./messages/settings.ts";
-import * as zhHans from "./messages/zh-hans.ts";
-import * as zhHant from "./messages/zh-hant.ts";
+import * as zhHans from "./messages/zh-Hans.ts";
+import * as zhHant from "./messages/zh-Hant.ts";
 
 const namespaces = {
   providers,
