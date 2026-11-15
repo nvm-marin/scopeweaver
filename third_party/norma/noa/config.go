@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: scale the default growth floors for
+// Modified by MalWave on 2026-10-25: scale the default growth floors for
 // windows below the 200K reference they were tuned on.
 // Also document the minimum-benefit exception for count-triggered consolidation.
 package noa

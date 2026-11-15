@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: execute with the originating executor context.
+// Modified by MalWave on 2026-10-25: execute with the originating executor context.
 package harness
 
 import (

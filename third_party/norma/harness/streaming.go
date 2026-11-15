@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: retain each executor's originating tool context.
+// Modified by MalWave on 2026-10-25: retain each executor's originating tool context.
 package harness
 
 import (

@@ -1,4 +1,4 @@
-// Package selfupdate implements ScopeWeaver's one-click update: download a GitHub
+// Package selfupdate implements MalWave's one-click update: download a GitHub
 // release executable, verify and stage it, then atomically replace it on startup.
 //
 // Responsibilities (see start.sh / start.bat):

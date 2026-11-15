@@ -1,4 +1,4 @@
-// Command artex runs the ScopeWeaver backend: the PostgreSQL graph stores,
+// Command artex runs the MalWave backend: the PostgreSQL graph stores,
 // the event-driven exploration engine, and the JSON HTTP API consumed by the
 // shadcn/ui frontend.
 package main
@@ -29,7 +29,7 @@ import (
 var version = "dev"
 
 const banner = `
-  ScopeWeaver
+  MalWave
 `
 
 // printBanner writes the startup banner + version/runtime info to stdout.

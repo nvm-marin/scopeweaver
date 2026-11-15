@@ -1,4 +1,4 @@
-// Package locale provides ScopeWeaver's backend internationalization: the
+// Package locale provides MalWave's backend internationalization: the
 // supported interface languages, request-safe locale negotiation, and a small
 // message catalog used for human-facing API/report/notification/CLI text.
 //
@@ -45,7 +45,7 @@ const CookieName = "scopeweaver_locale"
 // a header cannot be attached easily.
 const QueryParam = "lang"
 
-// Supported reports whether l is a language ScopeWeaver ships translations for.
+// Supported reports whether l is a language MalWave ships translations for.
 func Supported(l Lang) bool {
 	for _, d := range definitions {
 		if d.ID == l {
@@ -154,7 +154,7 @@ func ServerDefault() Lang {
 	return Default
 }
 
-// FromEnv resolves a server default from the ScopeWeaver/ARTEX language env vars.
+// FromEnv resolves a server default from the MalWave/ARTEX language env vars.
 // SCOPEWEAVER_LANGUAGE wins over the legacy ARTEX_LANGUAGE. It intentionally does
 // NOT consult the OS LANG/LC_* locale, so a Korean desktop never silently flips
 // the product to Korean. ok is false when neither var names a supported language.

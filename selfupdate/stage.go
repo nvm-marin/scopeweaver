@@ -250,7 +250,7 @@ func get(ctx context.Context, c *http.Client, rawURL string) (io.ReadCloser, err
 	return resp.Body, nil
 }
 
-// extractBinary extracts the ScopeWeaver executable from a release package.
+// extractBinary extracts the MalWave executable from a release package.
 //
 // The layout is scopeweaver-<version>-<os>-<arch>/scopeweaver. Match by basename
 // rather than duplicating the version-dependent path, reducing naming fragility.

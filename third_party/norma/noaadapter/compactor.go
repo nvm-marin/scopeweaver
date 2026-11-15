@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: learn the provider window from
+// Modified by MalWave on 2026-10-25: learn the provider window from
 // recognised overflow errors before Reactive runs.
 // Also reject explicit output-only errors before input-context recovery.
 package noaadapter

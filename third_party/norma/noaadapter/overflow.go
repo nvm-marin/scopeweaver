@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: learn only unmistakable, smaller
+// Modified by MalWave on 2026-10-25: learn only unmistakable, smaller
 // context windows, and never loosen a learned one.
 package noaadapter
 

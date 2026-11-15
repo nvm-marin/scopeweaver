@@ -1,4 +1,4 @@
-// Modified by ScopeWeaver on 2026-10-25: allow worthwhile summary backlogs to qualify count triggers.
+// Modified by MalWave on 2026-10-25: allow worthwhile summary backlogs to qualify count triggers.
 package noa
 
 import (

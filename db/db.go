@@ -1,4 +1,4 @@
-// Package db is ScopeWeaver's PostgreSQL data source, replacing the legacy single-file graph SQLite store.
+// Package db is MalWave's PostgreSQL data source, replacing the legacy single-file graph SQLite store.
 // It opens connections, applies the schema, and seeds built-in agents and variable catalogs.
 package db
 
